@@ -2,7 +2,10 @@ import java.net.SocketTimeoutException;
 
 public class Main {
     public static void main(String[] args) {
-        AircraftsEquipment aircraftsEquipment = new AircraftsEquipment();
+        AircraftsEquipment aircraftsEquipment = new AircraftsEquipment("kite", "black","500",
+                "aircraft","high" , 200);
+        AircraftsEquipment aircraftsEquipment2 = new AircraftsEquipment("kite", "black","700",
+                "aircraft2","high" , 100);
         /*aircraftsEquipment.cost = 200;
         aircraftsEquipment.cost =aircraftsEquipment . cost +200;
         aircraftsEquipment . cost += 200;
